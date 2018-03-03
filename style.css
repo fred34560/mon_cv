@@ -1,0 +1,52 @@
+.conteneur {
+    display: flex;
+}
+.col1 {
+    width: 20%;
+}
+.col2 {
+    width: 80%;
+    display: flex;
+}
+.liseret {
+    position: absolute;
+    background: #434343;
+    width: 150px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    padding-top: 150px;
+    line-height: 50px;
+    visibility: visible;
+}
+.liseret a {
+    color: #ffc637;
+    font-weight: bold;
+    text-decoration: none;
+}
+.liseret a:hover {
+    text-decoration: underline;
+}
+.contenu {
+    width: 80%;
+}
+.conteneur_photo {
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+section {
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    display: flex;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    left: 100px;
+    font-size: 0.9em;
+}
