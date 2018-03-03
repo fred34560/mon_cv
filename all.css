@@ -12,7 +12,7 @@
 body {
     font-family: aaarghnormal, "Trebuchet MS", Helvetica, Arial, Sans-serif;
     color: #434343;
-    background: url("/images/background.jpg");
+    background: url("background.jpg");
     margin: 0px;
     overflow-x: hidden;
 }
